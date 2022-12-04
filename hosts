@@ -1,4 +1,1 @@
-[all:vars]
-ansible_connection=ssh
-ansible_user=<user_name>>
-ansible_pass=<password>
+172.16.3.246 ansible-user=anil ansible-password=

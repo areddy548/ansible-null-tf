@@ -14,6 +14,10 @@ resource "local_file" "foo" {
 }
 
 resource "null_resource" "null01" {
+  
+  depends_on = [
+    local_file.foo
+  ]
      triggers = {
     always_run = "${timestamp()}"
      }

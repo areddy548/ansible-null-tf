@@ -7,3 +7,6 @@ resource "null_resource" "null01" {
   }
 }
 
+
+variable "vmPassword" {
+}

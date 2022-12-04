@@ -1,5 +1,5 @@
 ---
-- hosts: 172.16.3.246
+- hosts: all
   tasks:
     - name: This is a hello-world example
       debug:
